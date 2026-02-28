@@ -160,14 +160,36 @@ strengths:
 
 <br>
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">🏙️ 3D Contribution Skyline</h2>
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-purple.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-purple.svg" width="98%" />
+</picture>
+
+</div>
+
+<br>
+
+<h2 align="center">📈 Activity Graph</h2>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohana-Prasath-2005&custom_title=Contribution%20Timeline&hide_border=true&bg_color=0d1117&color=8A2BE2&line=00BFFF&point=ffffff&area=true&area_color=8A2BE2" width="98%" alt="Activity Graph" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.pumbas.net/api/contributions/Mohana-Prasath-2005?colour=8A2BE2&bgColour=0d1117&dotColour=00BFFF&days=150&borderRadius=10" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.pumbas.net/api/contributions/Mohana-Prasath-2005?colour=8A2BE2&bgColour=F6F8FA&dotColour=00BFFF&days=150&borderRadius=10" />
+  <img alt="Recent Contributions" src="https://github.pumbas.net/api/contributions/Mohana-Prasath-2005?colour=8A2BE2&bgColour=0d1117&dotColour=00BFFF&days=150&borderRadius=10" width="98%" />
 </picture>
 
 </div>
