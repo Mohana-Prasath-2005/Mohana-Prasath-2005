@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=%3E+Building+systems+that+don't+break+under+pressure" alt="Typing SVG" />
-</a>
+<img src="https://readme-svg-typing-generator.vercel.app/api?lines=Full+Stack+Developer;Backend+Architect;System+Builder;Problem+Solver&animation=neon&color=8A2BE2&size=35&font=code&center=true&vCenter=true&width=650&height=55&duration=3000&pause=1500" alt="Neon Typing" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&repeat=true&width=600&height=35&lines=Python+%7C+React+%7C+Node.js+%7C+Flask+%7C+Docker;Building+systems+that+don't+break+under+pressure;Clean+Code+%E2%80%A2+Scalable+APIs+%E2%80%A2+Real-Time+Systems;From+concept+to+deployment+%E2%80%94+I+ship+it" alt="Typing SVG" />
 
 <br>
 
