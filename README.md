@@ -158,6 +158,20 @@ strengths:
 
 </div>
 
+<br>
+
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:8A2BE2,100:00BFFF&height=120&section=footer" />

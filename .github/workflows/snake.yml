@@ -18,7 +18,7 @@ jobs:
           github_user_name: Mohana-Prasath-2005
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=green&color_dots=#000,#333,#666,#999,#ccc
+            dist/github-contribution-grid-snake.svg?palette=github-light
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
