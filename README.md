@@ -12,7 +12,7 @@
 <a href="https://www.linkedin.com/in/mohana-prasath-g-279139267">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="mailto:mohanaprasath8917@gmail.com">
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohanaprasath8917@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://mohana-prasath-2005.github.io/portfolio/">
@@ -33,17 +33,52 @@ I'm a Full Stack Developer focused on building reliable, high-performance system
 
 <div align="center">
 
-  ### ⚡ Languages
-  <img src="https://skillicons.dev/icons?i=python,js,java,c&perline=8&theme=dark" />
+<table>
+<tr>
+<td align="center" width="50%">
 
-  ### 🎨 Frontend
-  <img src="https://skillicons.dev/icons?i=react,html,css&perline=8&theme=dark" />
+### ⚡ Languages
+<br>
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,c&perline=5&theme=dark" />
+<br>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
 
-  ### ⚙️ Backend
-  <img src="https://skillicons.dev/icons?i=nodejs,express,flask&perline=8&theme=dark" />
+</td>
+<td align="center" width="50%">
 
-  ### 🛠️ Tools
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,git,github,docker,vscode&perline=8&theme=dark" />
+### 🎨 Frontend
+<br>
+<img src="https://skillicons.dev/icons?i=react,html,css&perline=5&theme=dark" />
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+### ⚙️ Backend
+<br>
+<img src="https://skillicons.dev/icons?i=nodejs,express,flask&perline=5&theme=dark" />
+
+</td>
+<td align="center">
+
+### 🛠️ Tools & Platforms
+<br>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,git,github,docker,vscode,postman&perline=7&theme=dark" />
+<br><br>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+<img src="https://img.shields.io/badge/Bruno-FF6C37?style=flat-square&logo=bruno&logoColor=white" />
+<img src="https://img.shields.io/badge/SoapUI-6DB33F?style=flat-square&logo=soap&logoColor=white" />
+<img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
+<img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
+<br>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white" />
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -56,23 +91,12 @@ I'm a Full Stack Developer focused on building reliable, high-performance system
 | **[Vision X](https://github.com/Mohana-Prasath-2005)** | Real-time object detection & tracking system processing video at 30 FPS with sub-50ms latency. Designed for surveillance and intelligent monitoring. | Python, YOLOv8, OpenCV |
 | **[Transaction Reconciliation System](https://github.com/Mohana-Prasath-2005)** | Financial reconciliation platform with real-time dashboards for settlement tracking, issue detection, and performance analytics. | Flask, React (Vite), SQLite |
 | **[3-in-1 IoT Robot Car](https://github.com/Mohana-Prasath-2005)** | Multi-control robot car supporting gesture, voice, and Bluetooth commands with high command accuracy. Led development and system integration. | IoT, Embedded Systems, Sensors |
-| **[AI Career Counselor](https://github.com/Mohana-Prasath-2005/GEN-AI)** | AI-powered career counseling application helping students make informed decisions. | Gen AI, Python |
-| **[Portfolio](https://mohana-prasath-2005.github.io/portfolio/)** | Personal branding site showcasing projects and skills with a clean modern aesthetic. | HTML, CSS, JavaScript |
 
 <br>
 
 ## 📊 Hunter Stats
 
 <div align="center">
-
-<a href="https://github.com/Mohana-Prasath-2005">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mohana-Prasath-2005&show_icons=true&theme=omni&rank_icon=github&count_private=true&hide_border=true&title_color=8A2BE2&icon_color=00BFFF&text_color=ffffff&bg_color=0d1117" alt="Mohana Prasath's Stats" height="180" />
-</a>
-<a href="https://github.com/Mohana-Prasath-2005">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohana-Prasath-2005&layout=compact&theme=omni&hide_border=true&title_color=8A2BE2&text_color=ffffff&bg_color=0d1117" alt="Top Languages" height="180" />
-</a>
-
-<br>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohana-Prasath-2005&theme=omni&hide_border=true&ring=8A2BE2&fire=00BFFF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8A2BE2" alt="Streak Stats" />
 
@@ -85,18 +109,8 @@ I'm a Full Stack Developer focused on building reliable, high-performance system
 <div align="center">
 
 <a href="https://leetcode.com/u/MOHAN-2005/">
-  <img src="https://leetcard.jacoblin.cool/MOHAN-2005?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=10" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/MOHAN-2005?theme=dark&font=Fira%20Code&border=0&radius=10" alt="LeetCode Stats" />
 </a>
-
-</div>
-
-<br>
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake Animation](https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
