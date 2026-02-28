@@ -165,9 +165,9 @@ strengths:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-purple.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-purple.svg" width="98%" />
+  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-rainbow.svg" width="98%" />
 </picture>
 
 </div>
