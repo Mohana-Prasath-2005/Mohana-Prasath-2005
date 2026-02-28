@@ -1,31 +1,78 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:8A2BE2,100:00BFFF&height=220&section=header&text=MOHANA%20PRASATH%20G&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Engineering%20Elite%20%E2%80%A2%20Full-Stack%20Developer%20%E2%80%A2%20Execution%20Over%20Excuses&descSize=16&descAlignY=55&descColor=cccccc" />
+
 <div align="center">
 
-# ⚡ MOHANA PRASATH G ⚡
-### <samp>Engineering Elite • Full-Stack Developer • Execution Over Excuses</samp>
-
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Building+High-Performance+Systems...;Crafting+Scalable+Solutions...;Full+Stack+Developer...;Python+%E2%80%A2+React+%E2%80%A2+Node.js+%E2%80%A2+Flask;Precision+%E2%80%A2+Discipline+%E2%80%A2+Execution" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=%3E+Building+systems+that+don't+break+under+pressure" alt="Typing SVG" />
 </a>
 
 <br>
 
 <a href="https://www.linkedin.com/in/mohana-prasath-g-279139267">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" />
 </a>
+&nbsp;
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohanaprasath8917@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/-GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" />
 </a>
+&nbsp;
 <a href="https://mohana-prasath-2005.github.io/portfolio/">
-  <img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/-PORTFOLIO-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" />
 </a>
 
 <br>
-<br>
 
-### 🔮 About Me
-I'm a Full Stack Developer focused on building reliable, high-performance systems. From backend logic to polished frontend experiences, I create solutions that scale. I take on complex problems directly and solve them with structure, precision, and discipline.
+<img src="https://komarev.com/ghpvc/?username=Mohana-Prasath-2005&style=for-the-badge&color=8A2BE2&labelColor=0d1117&label=PROFILE+VIEWS" />
 
 </div>
+
+<br>
+
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">🔮 About Me</h3>
+
+```js
+const mohana = {
+  role: "Full Stack Developer",
+  code: ["Python", "JavaScript", "TypeScript",
+         "Java", "C", "SQL"],
+  focus: ["Backend Systems", "REST APIs",
+          "Real-Time Processing"],
+  architecture: ["Monolithic", "MVC",
+                  "Event-Driven"],
+  currentlyLearning: "Always something new",
+  motto: "Structure. Precision. Discipline."
+};
+```
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">⚡ Quick Facts</h3>
+
+```yaml
+name: Mohana Prasath G
+located_in: India
+education: Engineering Student
+
+currently:
+  building: Scalable Full-Stack Apps
+  exploring: System Design & DevOps
+  sharpening: DSA on LeetCode
+
+strengths:
+  - Backend Architecture
+  - Real-Time Data Processing
+  - Clean API Design
+  - Problem Solving Under Pressure
+```
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -179,4 +226,4 @@ I'm a Full Stack Developer focused on building reliable, high-performance system
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:8A2BE2,100:00BFFF&height=120&section=footer" />
