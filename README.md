@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&repeat=true&width=650&height=40&lines=%E2%9A%A1+Engineering+Elite+%E2%80%A2+Full+Stack+Developer+%E2%80%A2+System+Architect+%E2%9A%A1" alt="Typing SVG" />
-</a>
+<img src="https://readme-svg-typing-generator.vercel.app/api?lines=Full+Stack+Developer;Backend+Architect;System+Builder;Problem+Solver&animation=neon&color=8A2BE2&size=35&font=code&center=true&vCenter=true&width=650&height=55&duration=3000&pause=1500" alt="Neon Typing" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2500&pause=800&color=00BFFF&center=true&vCenter=true&repeat=true&width=600&height=35&lines=Python+%7C+React+%7C+Node.js+%7C+Flask+%7C+Docker;Building+systems+that+don't+break+under+pressure;Clean+Code+%E2%80%A2+Scalable+APIs+%E2%80%A2+Real-Time+Systems;From+concept+to+deployment+%E2%80%94+I+ship+it" alt="Typing SVG" />
 
 <br>
 
@@ -22,30 +22,51 @@
 
 <h2 align="center">🔮 Who Am I</h2>
 
-<div align="center">
-<table>
+<table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td>
+<td width="50%" valign="top">
+
+<h3 align="center">🔮 About Me</h3>
 
 ```js
 const mohana = {
-    role      : "Full Stack Developer",
-    code      : ["Python", "JavaScript", "TypeScript", "Java", "C"],
-    focus     : ["Backend Systems", "REST APIs", "Real-Time Processing"],
-    tools     : ["React", "Node.js", "Flask", "Docker", "PostgreSQL"],
-    challenge : "Solving DSA problems daily on LeetCode",
-    motto     : "Structure. Precision. Ship it."
+  role: "Full Stack Developer",
+  code: ["Python", "JavaScript", "TypeScript",
+         "Java", "C", "SQL"],
+  focus: ["Backend Systems", "REST APIs",
+          "Real-Time Processing"],
+  architecture: ["Monolithic", "MVC",
+                  "Event-Driven"],
+  currentlyLearning: "Always something new",
+  motto: "Structure. Precision. Discipline."
 };
+```
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">⚡ Quick Facts</h3>
+
+```yaml
+name: Mohana Prasath G
+located_in: India
+education: Engineering Student
+
+currently:
+  building: Scalable Full-Stack Apps
+  exploring: System Design & DevOps
+  sharpening: DSA on LeetCode
+
+strengths:
+  - Backend Architecture
+  - Real-Time Data Processing
+  - Clean API Design
+  - Problem Solving Under Pressure
 ```
 
 </td>
 </tr>
 </table>
-</div>
-
-<p align="center">
-<i>I build reliable systems that don't break under pressure. From backend logic to polished frontend<br>experiences — I take on complex problems and solve them with discipline.</i>
-</p>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
@@ -117,22 +138,23 @@ const mohana = {
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">📊 GitHub & LeetCode</h2>
+<h2 align="center">📊 Hunter Stats</h2>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohana-Prasath-2005&theme=transparent&hide_border=true&ring=8A2BE2&fire=00BFFF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8A2BE2&sideLabels=8A2BE2&dates=555555" alt="Streak Stats" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api?username=Mohana-Prasath-2005&show_icons=true&hide_border=true&count_private=true&title_color=8A2BE2&icon_color=00BFFF&text_color=ffffff&bg_color=00000000&rank_icon=github" alt="GitHub Stats" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohana-Prasath-2005&theme=omni&hide_border=true&ring=8A2BE2&fire=00BFFF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8A2BE2" alt="Streak Stats" />
+
+</div>
 
 <br>
+
+<h2 align="center">🏆 LeetCode Stats</h2>
+
+<div align="center">
 
 <a href="https://leetcode.com/u/MOHAN-2005/">
-  <img src="https://leetcard.jacoblin.cool/MOHAN-2005?theme=dark&font=JetBrains%20Mono&border=0&radius=10" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/MOHAN-2005?theme=dark&font=Fira%20Code&border=0&radius=10" alt="LeetCode Stats" />
 </a>
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohana-Prasath-2005&custom_title=Contribution%20Graph&hide_border=true&bg_color=00000000&color=8A2BE2&line=00BFFF&point=ffffff&area=true&area_color=8A2BE2" width="98%" alt="Activity Graph" />
 
 </div>
 
