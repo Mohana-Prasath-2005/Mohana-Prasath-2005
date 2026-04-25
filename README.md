@@ -160,14 +160,18 @@ strengths:
 
 <br>
 
-<h2 align="center">🏙️ 3D Contribution Skyline</h2>
+<h2 align="center">📈 Contribution Graph</h2>
 
 <div align="center">
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohana-Prasath-2005&bg_color=0d1117&color=8A2BE2&line=00BFFF&point=ffffff&area=true&area_color=8A2BE220&hide_border=true" width="98%" />
+
+<br><br>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-rainbow.svg" width="98%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" width="98%" />
 </picture>
 
 </div>
