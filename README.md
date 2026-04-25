@@ -153,7 +153,7 @@ strengths:
 <div align="center">
 
 <a href="https://leetcode.com/u/MOHAN-2005/">
-  <img src="https://leetcard.jacoblin.cool/MOHAN-2005?theme=dark&font=Fira%20Code&border=0&radius=10" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/MOHAN-2005?theme=dark&font=Fira%20Code&border=0&radius=10&animation=false" alt="LeetCode Stats" />
 </a>
 
 </div>
@@ -165,14 +165,6 @@ strengths:
 <div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohana-Prasath-2005&bg_color=0d1117&color=8A2BE2&line=00BFFF&point=ffffff&area=true&area_color=8A2BE220&hide_border=true" width="98%" />
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Mohana-Prasath-2005/Mohana-Prasath-2005/output/github-contribution-grid-snake-dark.svg" width="98%" />
-</picture>
 
 </div>
 
