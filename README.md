@@ -20,56 +20,6 @@
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🔮 Who Am I</h2>
-
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="center">🔮 About Me</h3>
-
-```js
-const mohana = {
-  role: "Full Stack Developer",
-  code: ["Python", "JavaScript", "TypeScript",
-         "Java", "C", "SQL"],
-  focus: ["Backend Systems", "REST APIs",
-          "Real-Time Processing"],
-  architecture: ["Monolithic", "MVC",
-                  "Event-Driven"],
-  currentlyLearning: "Always something new",
-  motto: "Structure. Precision. Discipline."
-};
-```
-
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">⚡ Quick Facts</h3>
-
-```yaml
-name: Mohana Prasath G
-located_in: India
-education: Engineering Student
-
-currently:
-  building: Scalable Full-Stack Apps
-  exploring: System Design & DevOps
-  sharpening: DSA on LeetCode
-
-strengths:
-  - Backend Architecture
-  - Real-Time Data Processing
-  - Clean API Design
-  - Problem Solving Under Pressure
-```
-
-</td>
-</tr>
-</table>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
 <h2 align="center">⚔️ Tech Stack</h2>
 
 <div align="center">
@@ -143,16 +93,6 @@ strengths:
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohana-Prasath-2005&theme=omni&hide_border=true&ring=8A2BE2&fire=00BFFF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8A2BE2" alt="Streak Stats" />
-
-</div>
-
-<br>
-
-<h2 align="center">📈 Contribution Graph</h2>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohana-Prasath-2005&bg_color=0d1117&color=8A2BE2&line=00BFFF&point=ffffff&area=true&area_color=8A2BE220&hide_border=true" width="98%" />
 
 </div>
 
