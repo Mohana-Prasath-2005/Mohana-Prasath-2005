@@ -89,7 +89,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohana-Prasath-2005&theme=omni&hide_border=true&ring=8A2BE2&fire=00BFFF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8A2BE2" alt="Streak Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohana-Prasath-2005&theme=omni&hide_border=true&ring=8A2BE2&fire=00BFFF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8A2BE2&cache_seconds=21600" alt="Streak Stats" />
 
 </div>
 
