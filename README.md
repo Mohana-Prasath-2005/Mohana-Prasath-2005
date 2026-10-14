@@ -13,9 +13,6 @@
 <a href="https://mohana-prasath-2005.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 <a href="https://leetcode.com/u/MOHAN-2005/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
 
-<br>
-<img src="https://komarev.com/ghpvc/?username=Mohana-Prasath-2005&style=flat-square&color=8A2BE2&labelColor=0d1117&label=Profile+Views" />
-
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
