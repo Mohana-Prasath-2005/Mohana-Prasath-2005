@@ -190,7 +190,7 @@
       <div class="wrap">
         <div class="head">
           <span class="cmd"><b>❯ </b>ls ~/projects --featured</span>
-          <span class="meta">03 SHIPPED · AI · FINTECH · VISION</span>
+          <span class="meta">SELECTED WORK · 2025–26</span>
         </div>
 
         <div class="grid">
@@ -264,7 +264,7 @@
           <div class="card">
             <div class="stage">
               <span class="no">03 · VISION</span>
-              <span class="hud"><i></i>LIVE · 30 FPS</span>
+              <span class="hud"><i></i>REC · 30 FPS</span>
               <div class="vp">
                 <div class="road"></div>
                 <div class="scanv"></div>

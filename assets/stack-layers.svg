@@ -134,7 +134,7 @@
       <div class="wrap">
         <div class="head">
           <span><span class="prompt">❯ </span><span class="cmd">./deploy --describe stack</span></span>
-          <span class="meta">layers: 6 · status: <span class="ok">● healthy</span></span>
+          <span class="meta">26 tools · 6 layers</span>
         </div>
 
         <div class="stack">
@@ -150,7 +150,7 @@
               <span class="chip"><i style="--b:#3178C6"></i>TypeScript</span>
               <span class="chip"><i style="--b:#F7DF1E"></i>JavaScript</span>
             </div>
-            <span class="role">what users touch</span>
+            <span class="role">portfolio · wavDINO dashboard</span>
           </div>
 
           <div class="layer l2">
@@ -162,7 +162,7 @@
               <span class="chip"><i style="--b:#E10098"></i>GraphQL</span>
               <span class="chip"><i style="--b:#FF6C37"></i>REST</span>
             </div>
-            <span class="role">where logic lives</span>
+            <span class="role">reconciliation API</span>
           </div>
 
           <div class="layer l3">
@@ -172,7 +172,7 @@
               <span class="chip"><i style="--b:#1EB4D4"></i>Hasura</span>
               <span class="chip"><i style="--b:#4479A1"></i>MySQL</span>
             </div>
-            <span class="role">source of truth</span>
+            <span class="role">Postgres via Hasura at work</span>
           </div>
 
           <div class="layer l4">
@@ -183,7 +183,7 @@
               <span class="chip"><i style="--b:#2496ED"></i>Docker</span>
               <span class="chip"><i style="--b:#2088FF"></i>GitHub Actions</span>
             </div>
-            <span class="role">how it ships</span>
+            <span class="role">serverless at Open Fabric</span>
           </div>
 
           <div class="layer l5">
@@ -195,7 +195,7 @@
               <span class="chip"><i style="--b:#8a7fff"></i>Pandas</span>
               <span class="chip"><i style="--b:#4dabcf"></i>NumPy</span>
             </div>
-            <span class="role">where it learns</span>
+            <span class="role">Vision X · wavDINO</span>
           </div>
 
           <div class="layer l6" style="margin-bottom: 0;">
@@ -207,7 +207,7 @@
               <span class="chip"><i style="--b:#e6edf3"></i>Termius</span>
               <span class="chip"><i style="--b:#F2C811"></i>Power BI</span>
             </div>
-            <span class="role">daily drivers</span>
+            <span class="role">API testing · SSH</span>
           </div>
         </div>
       </div>
