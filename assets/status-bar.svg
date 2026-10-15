@@ -1,0 +1,63 @@
+<svg fill="none" viewBox="0 0 900 65" width="900" height="65" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        .bar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 14px;
+          background: #0d1117;
+          border: 1px solid #21262d;
+          border-radius: 10px;
+          padding: 14px 24px;
+          font-family: 'JetBrains Mono', 'Courier New', monospace;
+          animation: fadeIn 1s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+          from { opacity: 0; transform: translateY(5px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        .divider { width: 1px; height: 20px; background: #30363d; }
+        .item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #6e7681; }
+        .item-icon { font-size: 14px; }
+        .item-label { color: #8b949e; }
+        .v-purple { color: #b48cff; font-weight: 700; }
+        .v-cyan { color: #00BFFF; font-weight: 700; }
+        .v-green { color: #3fb950; font-weight: 700; }
+        .v-yellow { color: #f2cc60; font-weight: 700; }
+
+        .status-dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: #3fb950;
+          animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+          0%, 100% { box-shadow: 0 0 0 0 rgba(63, 185, 80, 0.4); }
+          50% { box-shadow: 0 0 0 4px rgba(63, 185, 80, 0); }
+        }
+      </style>
+
+      <div class="bar">
+        <div class="item"><span class="item-icon">📍</span><span class="item-label">Erode, Tamil Nadu</span></div>
+        <div class="divider"></div>
+        <div class="item"><span class="item-icon">💼</span><span class="item-label">Open Fabric</span><span class="v-purple">fintech</span></div>
+        <div class="divider"></div>
+        <div class="item"><span class="item-icon">🎓</span><span class="item-label">B.E. CSE</span><span class="v-cyan">NEC</span></div>
+        <div class="divider"></div>
+        <div class="item"><span class="item-icon">🧠</span><span class="item-label">LeetCode</span><span class="v-yellow">490+</span></div>
+        <div class="divider"></div>
+        <div class="item"><div class="status-dot"></div><span class="v-green">open to collaborate</span></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
