@@ -3,7 +3,7 @@
 <br/>
 
 <picture>
-  <img alt="Mohana Prasath G — Software Engineer, Backend & Fintech" src="assets/header.svg" width="100%" />
+  <img alt="Mohana Prasath G — Software Engineer, Backend & Fintech" src="assets/whoami.svg" width="100%" />
 </picture>
 
 <br/>

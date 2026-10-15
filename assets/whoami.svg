@@ -151,21 +151,6 @@
               <span class="cyan">open to collaborate</span>
             </div>
           </div>
-
-          <div class="right">
-            <div class="fade-in delay-3">
-              <div class="output" style="margin-top: 0;">
-                <span class="prompt">❯ </span><span class="cmd">cat skills.conf</span>
-              </div>
-              <div style="margin-top: 14px;">
-                <div class="stat-row" style="padding: 8px 0;"><span class="stat-label">backend</span><span class="cyan">TypeScript · Node · Flask</span></div>
-                <div class="stat-row" style="padding: 8px 0;"><span class="stat-label">cloud</span><span class="cyan">AWS · Lambda · Docker</span></div>
-                <div class="stat-row" style="padding: 8px 0;"><span class="stat-label">data</span><span class="cyan">PostgreSQL · GraphQL · Hasura</span></div>
-                <div class="stat-row" style="padding: 8px 0;"><span class="stat-label">ai/ml</span><span class="cyan">PyTorch · DINOv2 · YOLOv8</span></div>
-                <div class="stat-row" style="padding: 8px 0;"><span class="stat-label">frontend</span><span class="cyan">React · Vite · HTML/CSS</span></div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
