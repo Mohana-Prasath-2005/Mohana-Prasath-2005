@@ -28,7 +28,7 @@
 <!-- ─── PROJECTS ─── -->
 
 <picture>
-  <img alt="Featured Projects" src="assets/projects-grid.svg" width="100%" />
+  <img alt="Featured Projects" src="assets/showcase.svg" width="100%" />
 </picture>
 
 <br/><br/>
