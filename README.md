@@ -11,7 +11,7 @@
 <!-- ─── STATUS BAR ─── -->
 
 <picture>
-  <img alt="Status" src="assets/status-bar.svg" width="100%" />
+  <img alt="Status" src="assets/signal.svg" width="100%" />
 </picture>
 
 <br/><br/>
