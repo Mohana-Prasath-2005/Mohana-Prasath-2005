@@ -147,8 +147,6 @@
               <span class="chip"><i style="--b:#646CFF"></i>Vite</span>
               <span class="chip"><i style="--b:#3178C6"></i>TypeScript</span>
               <span class="chip"><i style="--b:#F7DF1E"></i>JavaScript</span>
-              <span class="chip"><i style="--b:#E34F26"></i>HTML5</span>
-              <span class="chip"><i style="--b:#1572B6"></i>CSS3</span>
             </div>
           </div>
 
@@ -157,7 +155,6 @@
             <div class="chips">
               <span class="chip"><i style="--b:#339933"></i>Node.js</span>
               <span class="chip"><i style="--b:#e6edf3"></i>Express</span>
-              <span class="chip"><i style="--b:#3776AB"></i>Python</span>
               <span class="chip"><i style="--b:#c9d1d9"></i>Flask</span>
               <span class="chip"><i style="--b:#E10098"></i>GraphQL</span>
               <span class="chip"><i style="--b:#FF6C37"></i>REST</span>
@@ -186,7 +183,7 @@
           <div class="layer l5">
             <span class="idx">05</span><span class="name">intelligence</span>
             <div class="chips">
-              <span class="chip"><i style="--b:#EE4C2C"></i>PyTorch</span>
+              <span class="chip"><i style="--b:#3776AB"></i>Python</span>
               <span class="chip"><i style="--b:#00FFFF"></i>YOLOv8</span>
               <span class="chip"><i style="--b:#5C3EE8"></i>OpenCV</span>
               <span class="chip"><i style="--b:#8a7fff"></i>Pandas</span>
@@ -202,7 +199,6 @@
               <span class="chip"><i style="--b:#6DB33F"></i>SoapUI</span>
               <span class="chip"><i style="--b:#e6edf3"></i>Termius</span>
               <span class="chip"><i style="--b:#F2C811"></i>Power BI</span>
-              <span class="chip"><i style="--b:#217346"></i>Excel</span>
             </div>
           </div>
         </div>

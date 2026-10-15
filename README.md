@@ -44,7 +44,7 @@
 <!-- ─── TECH ICONS ─── -->
 
 <picture>
-  <img alt="Tech Stack" src="assets/stack-layers.svg" width="100%" />
+  <img alt="Tech Stack" src="assets/stack.svg" width="100%" />
 </picture>
 
 <br/><br/>
