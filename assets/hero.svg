@@ -1,0 +1,247 @@
+<svg fill="none" viewBox="0 0 900 330" width="900" height="330" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&amp;display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        .frame {
+          background: #0d1117;
+          border: 1px solid #21262d;
+          border-radius: 12px;
+          overflow: hidden;
+          font-family: 'JetBrains Mono', 'Courier New', monospace;
+          position: relative;
+          box-shadow: 0 0 40px rgba(138, 43, 226, 0.10), 0 0 80px rgba(0, 191, 255, 0.05);
+        }
+
+        .grid-bg {
+          position: absolute;
+          inset: 0;
+          background-image:
+            linear-gradient(rgba(138, 43, 226, 0.06) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(138, 43, 226, 0.06) 1px, transparent 1px);
+          background-size: 24px 24px;
+          mask-image: radial-gradient(ellipse at 75% 45%, #000 0%, transparent 70%);
+          -webkit-mask-image: radial-gradient(ellipse at 75% 45%, #000 0%, transparent 70%);
+        }
+
+        .titlebar {
+          position: relative;
+          background: linear-gradient(90deg, #11151c 0%, #161b22 100%);
+          padding: 10px 16px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          border-bottom: 1px solid #21262d;
+        }
+
+        .dot { width: 12px; height: 12px; border-radius: 50%; }
+        .titlebar-text { color: #6e7681; font-size: 11px; margin-left: 8px; letter-spacing: 0.5px; flex: 1; }
+        .live { color: #3fb950; font-size: 10px; letter-spacing: 1.5px; }
+        .live i {
+          display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+          background: #3fb950; margin-right: 6px; vertical-align: middle;
+          animation: pulse 1.6s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+          0%, 100% { box-shadow: 0 0 0 0 rgba(63, 185, 80, 0.5); }
+          50% { box-shadow: 0 0 0 4px rgba(63, 185, 80, 0); }
+        }
+
+        .body { position: relative; display: flex; padding: 26px 28px 22px; gap: 26px; }
+        .left { flex: 1.1; }
+        .right { flex: 1; }
+
+        .prompt { color: #8A2BE2; font-size: 13px; }
+        .cmd { color: #00BFFF; font-size: 13px; }
+
+        .cursor {
+          display: inline-block; width: 8px; height: 14px; background: #8A2BE2;
+          vertical-align: middle; margin-left: 3px; animation: blink 1s step-end infinite;
+        }
+        @keyframes blink { 50% { opacity: 0; } }
+
+        .name {
+          margin-top: 16px;
+          font-size: 34px;
+          font-weight: 800;
+          letter-spacing: -0.5px;
+          line-height: 1.15;
+          background: linear-gradient(90deg, #b48cff, #00BFFF, #3fb950, #b48cff);
+          background-size: 300% 100%;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          animation: sweep 6s linear infinite;
+        }
+        @keyframes sweep { to { background-position: 300% 0; } }
+
+        .rotator {
+          margin-top: 12px;
+          height: 22px;
+          overflow: hidden;
+          font-size: 14px;
+          border-left: 2px solid #8A2BE2;
+          padding-left: 10px;
+        }
+        .reel { animation: roll 12s cubic-bezier(.7,0,.3,1) infinite; }
+        .reel div { height: 22px; line-height: 22px; color: #e6edf3; white-space: nowrap; }
+        .reel span { color: #00BFFF; }
+        @keyframes roll {
+          0%, 20%   { transform: translateY(0); }
+          25%, 45%  { transform: translateY(-22px); }
+          50%, 70%  { transform: translateY(-44px); }
+          75%, 95%  { transform: translateY(-66px); }
+          100%      { transform: translateY(-88px); }
+        }
+
+        .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; }
+        .tile {
+          background: rgba(17, 21, 28, 0.85);
+          border: 1px solid #21262d;
+          border-radius: 8px;
+          padding: 9px 11px;
+          opacity: 0;
+          animation: rise 0.6s ease-out forwards;
+        }
+        .tile:nth-child(1) { border-left: 2px solid #8A2BE2; animation-delay: 0.2s; }
+        .tile:nth-child(2) { border-left: 2px solid #00BFFF; animation-delay: 0.35s; }
+        .tile:nth-child(3) { border-left: 2px solid #f2cc60; animation-delay: 0.5s; }
+        .tile:nth-child(4) { border-left: 2px solid #3fb950; animation-delay: 0.65s; }
+        .tk { color: #6e7681; font-size: 9.5px; letter-spacing: 1.2px; text-transform: uppercase; }
+        .tv { color: #e6edf3; font-size: 12px; font-weight: 700; margin-top: 3px; }
+        @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+        .panel {
+          background: rgba(13, 17, 23, 0.9);
+          border: 1px solid #21262d;
+          border-radius: 10px;
+          padding: 14px 16px 16px;
+          height: 100%;
+        }
+        .ph { display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 1.2px; color: #6e7681; text-transform: uppercase; }
+        .ph b { color: #b48cff; font-weight: 700; }
+
+        .flow { position: relative; height: 92px; margin-top: 22px; }
+        .wire {
+          position: absolute; left: 32px; right: 32px; top: 17px; height: 2px;
+          background: linear-gradient(90deg, #8A2BE2, #00BFFF, #f2cc60, #3fb950);
+          opacity: 0.25;
+        }
+        .pkt {
+          position: absolute; top: 13px; width: 10px; height: 10px; border-radius: 50%;
+          background: #fff; box-shadow: 0 0 10px #00BFFF, 0 0 22px rgba(0, 191, 255, 0.6);
+          animation: travel 4s linear infinite;
+        }
+        @keyframes travel {
+          0%   { left: 27px; opacity: 0; }
+          5%   { opacity: 1; }
+          85%  { left: calc(100% - 37px); opacity: 1; }
+          100% { left: calc(100% - 37px); opacity: 0; }
+        }
+
+        .nodes { position: absolute; inset: 0; display: flex; justify-content: space-between; }
+        .node { width: 64px; display: flex; flex-direction: column; align-items: center; }
+        .ring {
+          width: 36px; height: 36px; border-radius: 50%;
+          background: #11151c; border: 2px solid var(--c);
+          display: flex; align-items: center; justify-content: center;
+          font-size: 15px;
+          animation: lit 4s linear infinite;
+          animation-delay: var(--d);
+        }
+        @keyframes lit {
+          0%, 14%, 100% { box-shadow: 0 0 0 0 transparent; }
+          4% { box-shadow: 0 0 14px var(--c), 0 0 0 4px rgba(255, 255, 255, 0.04); }
+        }
+        .nl { margin-top: 8px; font-size: 9.5px; color: #8b949e; letter-spacing: 0.8px; text-transform: uppercase; white-space: nowrap; }
+
+        .n1 { --c: #8A2BE2; --d: 0s; }
+        .n2 { --c: #00BFFF; --d: 1.13s; }
+        .n3 { --c: #f2cc60; --d: 2.27s; }
+        .n4 { --c: #3fb950; --d: 3.4s; }
+
+        .logs { margin-top: 10px; border-top: 1px dashed #21262d; padding-top: 10px; font-size: 10.5px; line-height: 1.75; color: #8b949e; height: 66px; overflow: hidden; }
+        .logs .scroll { animation: logs 8s steps(1) infinite; }
+        .ok { color: #3fb950; }
+        .ev { color: #00BFFF; }
+        .dim { color: #484f58; }
+        @keyframes logs {
+          0%   { transform: translateY(0); }
+          25%  { transform: translateY(-18.4px); }
+          50%  { transform: translateY(-36.8px); }
+          75%  { transform: translateY(-55.2px); }
+        }
+      </style>
+
+      <div class="frame">
+        <div class="grid-bg"></div>
+
+        <div class="titlebar">
+          <div class="dot" style="background:#ff5f57"></div>
+          <div class="dot" style="background:#febc2e"></div>
+          <div class="dot" style="background:#28c840"></div>
+          <span class="titlebar-text">mohan@github ~ /home/mohana-prasath</span>
+          <span class="live"><i></i>LIVE</span>
+        </div>
+
+        <div class="body">
+          <div class="left">
+            <div><span class="prompt">❯ </span><span class="cmd">whoami</span><span class="cursor"></span></div>
+
+            <div class="name">Mohana Prasath G</div>
+
+            <div class="rotator">
+              <div class="reel">
+                <div>Software Engineer <span>@ Open Fabric</span></div>
+                <div>Fintech <span>·</span> Card Issuing <span>·</span> Payments</div>
+                <div>AWS Serverless <span>·</span> Event-Driven</div>
+                <div>AI Research <span>·</span> Multimodal Emotion</div>
+                <div>Software Engineer <span>@ Open Fabric</span></div>
+              </div>
+            </div>
+
+            <div class="tiles">
+              <div class="tile"><div class="tk">focus</div><div class="tv">Backend Systems</div></div>
+              <div class="tile"><div class="tk">domain</div><div class="tv">Payments Infra</div></div>
+              <div class="tile"><div class="tk">runtime</div><div class="tv">AWS Serverless</div></div>
+              <div class="tile"><div class="tk">research</div><div class="tv">Multimodal AI</div></div>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="panel">
+              <div class="ph"><span>what I build</span><b>payment rails</b></div>
+
+              <div class="flow">
+                <div class="wire"></div>
+                <div class="pkt"></div>
+                <div class="nodes">
+                  <div class="node n1"><div class="ring">💳</div><div class="nl">swipe</div></div>
+                  <div class="node n2"><div class="ring">🔐</div><div class="nl">authorize</div></div>
+                  <div class="node n3"><div class="ring">📒</div><div class="nl">ledger</div></div>
+                  <div class="node n4"><div class="ring">✅</div><div class="nl">settle</div></div>
+                </div>
+              </div>
+
+              <div class="logs">
+                <div class="scroll">
+                  <div><span class="dim">›</span> <span class="ev">auth.request</span> → <span class="ok">approved</span></div>
+                  <div><span class="dim">›</span> <span class="ev">ledger.post</span> → <span class="ok">balanced</span></div>
+                  <div><span class="dim">›</span> <span class="ev">webhook.deliver</span> → <span class="ok">signed · 200</span></div>
+                  <div><span class="dim">›</span> <span class="ev">settlement.match</span> → <span class="ok">reconciled</span></div>
+                  <div><span class="dim">›</span> <span class="ev">auth.request</span> → <span class="ok">approved</span></div>
+                  <div><span class="dim">›</span> <span class="ev">ledger.post</span> → <span class="ok">balanced</span></div>
+                  <div><span class="dim">›</span> <span class="ev">webhook.deliver</span> → <span class="ok">signed · 200</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
