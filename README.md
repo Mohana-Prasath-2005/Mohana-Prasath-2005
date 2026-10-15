@@ -11,7 +11,7 @@
 <!-- ─── STATUS BAR ─── -->
 
 <picture>
-  <img alt="Status" src="assets/signal.svg" width="100%" />
+  <img alt="Status" src="assets/signal-strip.svg" width="100%" />
 </picture>
 
 <br/><br/>
@@ -29,6 +29,14 @@
 
 <picture>
   <img alt="Featured Projects" src="assets/showcase.svg" width="100%" />
+</picture>
+
+<br/><br/>
+
+<!-- ─── EDUCATION ─── -->
+
+<picture>
+  <img alt="Education" src="assets/education.svg" width="100%" />
 </picture>
 
 <br/><br/>
