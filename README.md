@@ -29,7 +29,7 @@
 <!-- ─── PROJECTS ─── -->
 
 <picture>
-  <img alt="Featured Projects" src="assets/projects.svg" width="100%" />
+  <img alt="Featured Projects" src="assets/featured.svg" width="100%" />
 </picture>
 
 <br/><br/>
