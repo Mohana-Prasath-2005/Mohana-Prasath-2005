@@ -87,18 +87,19 @@
           border-left: 2px solid #8A2BE2;
           padding-left: 10px;
         }
-        .reel { animation: roll 12s cubic-bezier(.7,0,.3,1) infinite; }
+        .reel { animation: roll 15s cubic-bezier(.7,0,.3,1) infinite; }
         .reel div { height: 22px; line-height: 22px; color: #e6edf3; white-space: nowrap; }
         .reel span { color: #00BFFF; }
         @keyframes roll {
-          0%, 20%   { transform: translateY(0); }
-          25%, 45%  { transform: translateY(-22px); }
-          50%, 70%  { transform: translateY(-44px); }
-          75%, 95%  { transform: translateY(-66px); }
-          100%      { transform: translateY(-88px); }
+          0%, 16%   { transform: translateY(0); }
+          20%, 36%  { transform: translateY(-22px); }
+          40%, 56%  { transform: translateY(-44px); }
+          60%, 76%  { transform: translateY(-66px); }
+          80%, 96%  { transform: translateY(-88px); }
+          100%      { transform: translateY(-110px); }
         }
 
-        .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 24px; }
+        .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 24px; }
         .tile {
           background: rgba(17, 21, 28, 0.85);
           border: 1px solid #21262d;
@@ -109,7 +110,7 @@
         }
         .tile:nth-child(1) { border-left: 2px solid #8A2BE2; animation-delay: 0.2s; }
         .tile:nth-child(2) { border-left: 2px solid #00BFFF; animation-delay: 0.35s; }
-        .tile:nth-child(3) { border-left: 2px solid #3fb950; animation-delay: 0.5s; }
+        .tile:nth-child(3) { border-left: 2px solid #f2cc60; animation-delay: 0.5s; }
         .tile:nth-child(4) { border-left: 2px solid #3fb950; animation-delay: 0.65s; }
         .tk { color: #6e7681; font-size: 9.5px; letter-spacing: 1.2px; text-transform: uppercase; }
         .tv { color: #e6edf3; font-size: 12px; font-weight: 700; margin-top: 3px; }
@@ -138,6 +139,7 @@
               <div class="reel">
                 <div>Software Engineer <span>@ Open Fabric</span></div>
                 <div>Alumnus <span>@ NEC</span> <span style="color:#6e7681">· Class of 2026</span></div>
+                <div>Exploring <span>→</span> System Design <span>·</span> Distributed Systems</div>
                 <div>AI Research <span>·</span> Multimodal Emotion</div>
                 <div>Fintech <span>·</span> Card Issuing <span>·</span> Payments</div>
                 <div>Software Engineer <span>@ Open Fabric</span></div>
@@ -147,6 +149,7 @@
             <div class="tiles">
               <div class="tile"><div class="tk">focus</div><div class="tv">Backend Systems</div></div>
               <div class="tile"><div class="tk">domain</div><div class="tv">Payments Infra</div></div>
+              <div class="tile"><div class="tk">exploring</div><div class="tv">System Design</div></div>
               <div class="tile"><div class="tk">research</div><div class="tv">Multimodal AI</div></div>
             </div>
           </div>
