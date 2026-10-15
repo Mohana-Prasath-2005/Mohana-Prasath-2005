@@ -1,6 +1,6 @@
 <div align="center">
 
-![Mohana Prasath G — Software Engineer, Backend & Fintech](assets/whoami.svg)
+![Mohana Prasath G — Software Engineer, Backend & Fintech](assets/intro-card.svg)
 
 ![Status](assets/signal-strip.svg)
 
