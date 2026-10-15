@@ -21,7 +21,7 @@
 
 <br/>
 
-![Tech Stack](assets/stack-layers.svg)
+![Tech Stack](assets/tech-layers.svg)
 
 <br/>
 
