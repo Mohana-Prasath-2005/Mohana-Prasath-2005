@@ -79,10 +79,10 @@
         @keyframes ping { 0% { box-shadow: 0 0 0 0 rgba(63,185,80,.6); } 100% { box-shadow: 0 0 0 9px rgba(63,185,80,0); } }
 
         /* honours */
-        .hon { margin-top: 11px; display: flex; flex-direction: column; gap: 6px; }
+        .hon { margin-top: 14px; display: flex; flex-direction: column; gap: 10px; }
         .h {
           display: flex; align-items: center; gap: 10px;
-          background: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 6px 10px;
+          background: #0d1117; border: 1px solid #21262d; border-radius: 8px; padding: 9px 12px;
           opacity: 0; animation: slide .5s ease-out forwards;
         }
         .h:nth-child(1) { animation-delay: .6s; } .h:nth-child(2) { animation-delay: .75s; }
@@ -130,9 +130,8 @@
             <div class="hon">
               <div class="h"><div class="medal shine" style="--m:#f2cc60"></div><div class="ht"><b>ISTE Chapter Best Student</b><i>ISTE Tamil Nadu Section</i></div><span class="yr">2026</span></div>
               <div class="h"><div class="medal shine" style="--m:#f2cc60"></div><div class="ht"><b>Best Outgoing Student</b><i>Dept. of CSE</i></div><span class="yr">2026</span></div>
-              <div class="h"><div class="medal" style="--m:#c0c8d2"></div><div class="ht"><b>Best Co-Curricular Student</b><i>CSE · two years running</i></div><span class="yr">'25 '26</span></div>
               <div class="h"><div class="medal" style="--m:#b48cff"></div><div class="ht"><b>Overall Joint Secretary</b><i>Nandha Engineering College</i></div><span class="yr">2024–25</span></div>
-              <div class="h"><div class="medal" style="--m:#00BFFF"></div><div class="ht"><b>Student Secretary</b><i>Dept. of CSE</i></div><span class="yr">2025–26</span></div>
+              <div class="h"><div class="medal" style="--m:#c0c8d2"></div><div class="ht"><b>Best Co-Curricular Student</b><i>CSE · two years running</i></div><span class="yr">'25 '26</span></div>
             </div>
           </div>
 
