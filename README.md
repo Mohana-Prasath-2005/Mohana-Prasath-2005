@@ -45,7 +45,7 @@
 <!-- ─── ACTIVITY ─── -->
 
 <picture>
-  <img alt="GitHub Activity" src="assets/activity.svg" width="100%" />
+  <img alt="GitHub Activity" src="assets/activity-card.svg" width="100%" />
 </picture>
 
 <br/><br/>
