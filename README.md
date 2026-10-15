@@ -36,7 +36,7 @@
 <!-- ─── EDUCATION ─── -->
 
 <picture>
-  <img alt="Education" src="assets/education.svg" width="100%" />
+  <img alt="Education" src="assets/edu-honours.svg" width="100%" />
 </picture>
 
 <br/><br/>
