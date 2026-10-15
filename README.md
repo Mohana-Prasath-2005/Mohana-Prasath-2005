@@ -42,9 +42,11 @@
 
 <br/><br/>
 
-<!-- ─── STREAK ─── -->
+<!-- ─── ACTIVITY ─── -->
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohana-Prasath-2005&theme=omni&hide_border=true&background=0d1117&ring=8A2BE2&fire=00BFFF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8A2BE2&cache_seconds=21600" alt="Streak Stats" />
+<picture>
+  <img alt="GitHub Activity" src="assets/activity.svg" width="100%" />
+</picture>
 
 <br/><br/>
 
