@@ -107,6 +107,8 @@
         .name { color: var(--c); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; width: 112px; }
 
         .chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
+        .role { color: #484f58; font-size: 10.5px; font-style: italic; white-space: nowrap; }
+        .role::before { content: '// '; color: #30363d; font-style: normal; }
 
         .chip {
           display: flex;
@@ -148,6 +150,7 @@
               <span class="chip"><i style="--b:#3178C6"></i>TypeScript</span>
               <span class="chip"><i style="--b:#F7DF1E"></i>JavaScript</span>
             </div>
+            <span class="role">what users touch</span>
           </div>
 
           <div class="layer l2">
@@ -159,6 +162,7 @@
               <span class="chip"><i style="--b:#E10098"></i>GraphQL</span>
               <span class="chip"><i style="--b:#FF6C37"></i>REST</span>
             </div>
+            <span class="role">where logic lives</span>
           </div>
 
           <div class="layer l3">
@@ -168,6 +172,7 @@
               <span class="chip"><i style="--b:#1EB4D4"></i>Hasura</span>
               <span class="chip"><i style="--b:#4479A1"></i>MySQL</span>
             </div>
+            <span class="role">source of truth</span>
           </div>
 
           <div class="layer l4">
@@ -178,6 +183,7 @@
               <span class="chip"><i style="--b:#2496ED"></i>Docker</span>
               <span class="chip"><i style="--b:#2088FF"></i>GitHub Actions</span>
             </div>
+            <span class="role">how it ships</span>
           </div>
 
           <div class="layer l5">
@@ -189,6 +195,7 @@
               <span class="chip"><i style="--b:#8a7fff"></i>Pandas</span>
               <span class="chip"><i style="--b:#4dabcf"></i>NumPy</span>
             </div>
+            <span class="role">where it learns</span>
           </div>
 
           <div class="layer l6" style="margin-bottom: 0;">
@@ -200,6 +207,7 @@
               <span class="chip"><i style="--b:#e6edf3"></i>Termius</span>
               <span class="chip"><i style="--b:#F2C811"></i>Power BI</span>
             </div>
+            <span class="role">daily drivers</span>
           </div>
         </div>
       </div>

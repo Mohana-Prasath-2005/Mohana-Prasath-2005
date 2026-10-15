@@ -92,7 +92,8 @@ def smooth(pts, floor):
 def render(created, days, recent):
     today = datetime.now(timezone.utc).date()
     total = sum(v["contributionCount"] for v in days.values())
-    cur, cur_range, best, best_range = streaks(days, today)
+    cur, cur_range, _, _ = streaks(days, today)
+    active = sum(1 for w in recent for d in w["contributionDays"] if d["contributionCount"] > 0)
 
     weeks = [(date.fromisoformat(w["contributionDays"][0]["date"]), sum(d["contributionCount"] for d in w["contributionDays"])) for w in recent]
     year_total = sum(v for _, v in weeks)
@@ -115,7 +116,6 @@ def render(created, days, recent):
             months.append(f'<text class="m" x="{cx0 + i * step:.1f}" y="{base + 22}" text-anchor="middle">{d.strftime("%b")}</text>')
 
     cur_sub = f"{fmt(cur_range[0])} – {fmt(cur_range[1])}" if cur else "start one today"
-    best_sub = f"{fmt(best_range[0])} – {fmt(best_range[1])}, {best_range[1].year}" if best_range else "—"
     peak_lbl_x = min(max(px, cx0 + 60), cx1 - 60)
 
     def stat(x, num, color, label, sub, delay, extra=""):
@@ -163,7 +163,7 @@ def render(created, days, recent):
   <line x1="320" y1="84" x2="320" y2="170" stroke="#21262d"/>
   {stat(450, cur, "#e6edf3", "CURRENT STREAK", cur_sub, .25, f'<path class="flame" transform="translate({450 + 20 + 14 * len(str(cur))},86)" d="M0,-10 C5,-4 7,0 7,4 A7,7 0 0 1 -7,4 C-7,0 -4,-2 -3,-6 C-2,-3 -1,-2 0,-2 C1,-5 1,-7 0,-10 Z" fill="url(#fire)"/>')}
   <line x1="580" y1="84" x2="580" y2="170" stroke="#21262d"/>
-  {stat(730, best, "#f2cc60", "LONGEST STREAK", best_sub, .4)}
+  {stat(730, active, "#f2cc60", "ACTIVE DAYS", "in the last 12 months", .4)}
 
   <text class="cap" x="{cx0}" y="206">LAST 12 MONTHS</text>
   <text class="cap" x="{cx1}" y="206" text-anchor="end">{year_total:,} CONTRIBUTIONS</text>
