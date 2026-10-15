@@ -48,19 +48,4 @@
 
 <br/><br/>
 
-<!-- ─── FOOTER ─── -->
-
-```
- ╭──────────────────────────────────────────────────────╮
- │                                                      │
- │   Backend · Payments · Cloud · AI                    │
- │   Building systems that don't break under pressure.  │
- │                                                      │
- ╰──────────────────────────────────────────────────────╯
-```
-
-<sub>if my work interests you — star a repo, open an issue, or just say hi.</sub>
-
-<br/><br/>
-
 </div>
