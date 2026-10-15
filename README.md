@@ -18,11 +18,10 @@
 
 <!-- ─── CONNECT ─── -->
 
-<a href="https://mohana-prasath-2005.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=googlechrome&logoColor=8A2BE2" /></a>&nbsp;
-<a href="https://www.linkedin.com/in/mohana-prasath-g-279139267"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>&nbsp;
-<a href="https://leetcode.com/u/MOHAN-2005/"><img src="https://img.shields.io/badge/LeetCode-0d1117?style=flat-square&logo=leetcode&logoColor=FFA116" /></a>&nbsp;
-<a href="mailto:mohanaprasath8917@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=EA4335" /></a>&nbsp;
-<a href="https://github.com/Mohana-Prasath-2005"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=ffffff" /></a>
+<a href="https://mohana-prasath-2005.github.io/portfolio/"><img src="assets/connect/portfolio.svg" height="48" alt="Portfolio" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/mohana-prasath-g-279139267"><img src="assets/connect/linkedin.svg" height="48" alt="LinkedIn" /></a>&nbsp;
+<a href="https://leetcode.com/u/MOHAN-2005/"><img src="assets/connect/leetcode.svg" height="48" alt="LeetCode" /></a>&nbsp;
+<a href="mailto:mohanaprasath8917@gmail.com"><img src="assets/connect/email.svg" height="48" alt="Email" /></a>
 
 <br/><br/>
 
@@ -37,7 +36,7 @@
 <!-- ─── TECH ICONS ─── -->
 
 <picture>
-  <img alt="Tech Stack" src="assets/tech-stack.svg" width="100%" />
+  <img alt="Tech Stack" src="assets/stack-layers.svg" width="100%" />
 </picture>
 
 <br/><br/>

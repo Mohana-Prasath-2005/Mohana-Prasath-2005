@@ -197,7 +197,6 @@
           <div class="layer l6" style="margin-bottom: 0;">
             <span class="idx">06</span><span class="name">toolbox</span>
             <div class="chips">
-              <span class="chip"><i style="--b:#F05032"></i>Git</span>
               <span class="chip"><i style="--b:#FF6C37"></i>Postman</span>
               <span class="chip"><i style="--b:#F4AA41"></i>Bruno</span>
               <span class="chip"><i style="--b:#6DB33F"></i>SoapUI</span>
