@@ -32,19 +32,13 @@
   <img alt="Featured Projects" src="assets/projects.svg" width="100%" />
 </picture>
 
-<sub>
-<a href="https://github.com/Mohana-Prasath-2005/wavDino">wavDINO</a> ·
-<a href="https://github.com/Mohana-Prasath-2005/WavDino-Temporal-Dashboard">wavDINO dashboard</a> ·
-<a href="https://github.com/Mohana-Prasath-2005/Transaction_Reconcillition_System">Transaction Reconciliation</a> ·
-<a href="https://github.com/Mohana-Prasath-2005/Vision_X">Vision X</a> ·
-<a href="https://github.com/Nithwin/windmist/pull/11">windmist PR #11</a>
-</sub>
-
 <br/><br/>
 
 <!-- ─── TECH ICONS ─── -->
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=ts,js,python,go,nodejs,express,flask,react,vite,postgresql,mysql,graphql,aws,docker,githubactions,git,postman,pytorch,tensorflow,opencv&theme=dark&perline=10" />
+<picture>
+  <img alt="Tech Stack" src="assets/stack.svg" width="100%" />
+</picture>
 
 <br/><br/>
 

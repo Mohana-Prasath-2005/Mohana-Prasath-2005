@@ -1,0 +1,219 @@
+<svg fill="none" viewBox="0 0 900 360" width="900" height="360" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        .wrap {
+          background: #0d1117;
+          border: 1px solid #21262d;
+          border-radius: 12px;
+          padding: 18px 22px 20px;
+          font-family: 'JetBrains Mono', 'Courier New', monospace;
+          position: relative;
+        }
+
+        .head { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 16px; }
+        .prompt { color: #8A2BE2; }
+        .cmd { color: #00BFFF; }
+        .meta { color: #6e7681; font-size: 11px; }
+        .ok { color: #3fb950; }
+
+        .stack { position: relative; padding-left: 26px; }
+
+        .rail {
+          position: absolute;
+          left: 7px;
+          top: 10px;
+          bottom: 10px;
+          width: 2px;
+          background: linear-gradient(180deg, #8A2BE2, #00BFFF, #3fb950, #f2cc60, #ff7b72, #6e7681);
+          opacity: 0.35;
+          border-radius: 1px;
+        }
+
+        .packet {
+          position: absolute;
+          left: 4px;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: #00BFFF;
+          box-shadow: 0 0 10px #00BFFF, 0 0 20px rgba(0, 191, 255, 0.5);
+          animation: flow 3.6s cubic-bezier(.45,.05,.55,.95) infinite;
+        }
+
+        .packet.p2 { background: #b48cff; box-shadow: 0 0 10px #b48cff, 0 0 20px rgba(138, 43, 226, 0.5); animation-delay: 1.8s; }
+
+        @keyframes flow {
+          0% { top: 6px; opacity: 0; }
+          10% { opacity: 1; }
+          90% { opacity: 1; }
+          100% { top: calc(100% - 14px); opacity: 0; }
+        }
+
+        .layer {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          background: #11151c;
+          border: 1px solid #21262d;
+          border-radius: 8px;
+          padding: 9px 14px;
+          margin-bottom: 9px;
+          position: relative;
+          opacity: 0;
+          animation: slide 0.6s ease-out forwards;
+        }
+
+        .layer::before {
+          content: '';
+          position: absolute;
+          left: -23px;
+          top: 50%;
+          width: 10px;
+          height: 10px;
+          margin-top: -5px;
+          border-radius: 50%;
+          background: #0d1117;
+          border: 2px solid var(--c);
+        }
+
+        .layer::after {
+          content: '';
+          position: absolute;
+          left: -12px;
+          top: 50%;
+          width: 12px;
+          height: 1px;
+          background: #30363d;
+        }
+
+        @keyframes slide {
+          from { opacity: 0; transform: translateX(-8px); }
+          to { opacity: 1; transform: translateX(0); }
+        }
+
+        .l1 { --c: #8A2BE2; animation-delay: 0.1s; }
+        .l2 { --c: #00BFFF; animation-delay: 0.25s; }
+        .l3 { --c: #3fb950; animation-delay: 0.4s; }
+        .l4 { --c: #f2cc60; animation-delay: 0.55s; }
+        .l5 { --c: #ff7b72; animation-delay: 0.7s; }
+        .l6 { --c: #8b949e; animation-delay: 0.85s; }
+
+        .idx { color: #484f58; font-size: 10px; width: 18px; }
+        .name { color: var(--c); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; width: 112px; }
+
+        .chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
+
+        .chip {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 11px;
+          color: #c9d1d9;
+          background: #0d1117;
+          border: 1px solid #30363d;
+          border-radius: 5px;
+          padding: 3px 8px;
+        }
+
+        .chip i {
+          width: 7px;
+          height: 7px;
+          border-radius: 2px;
+          background: var(--b);
+          box-shadow: 0 0 6px var(--b);
+        }
+      </style>
+
+      <div class="wrap">
+        <div class="head">
+          <span><span class="prompt">❯ </span><span class="cmd">./deploy --describe stack</span></span>
+          <span class="meta">layers: 6 · status: <span class="ok">● healthy</span></span>
+        </div>
+
+        <div class="stack">
+          <div class="rail"></div>
+          <div class="packet"></div>
+          <div class="packet p2"></div>
+
+          <div class="layer l1">
+            <span class="idx">01</span><span class="name">interface</span>
+            <div class="chips">
+              <span class="chip"><i style="--b:#61DAFB"></i>React</span>
+              <span class="chip"><i style="--b:#646CFF"></i>Vite</span>
+              <span class="chip"><i style="--b:#3178C6"></i>TypeScript</span>
+              <span class="chip"><i style="--b:#F7DF1E"></i>JavaScript</span>
+              <span class="chip"><i style="--b:#E34F26"></i>HTML5</span>
+              <span class="chip"><i style="--b:#1572B6"></i>CSS3</span>
+            </div>
+          </div>
+
+          <div class="layer l2">
+            <span class="idx">02</span><span class="name">services</span>
+            <div class="chips">
+              <span class="chip"><i style="--b:#339933"></i>Node.js</span>
+              <span class="chip"><i style="--b:#e6edf3"></i>Express</span>
+              <span class="chip"><i style="--b:#00ADD8"></i>Go</span>
+              <span class="chip"><i style="--b:#3776AB"></i>Python</span>
+              <span class="chip"><i style="--b:#c9d1d9"></i>Flask</span>
+              <span class="chip"><i style="--b:#E10098"></i>GraphQL</span>
+              <span class="chip"><i style="--b:#FF6C37"></i>REST</span>
+            </div>
+          </div>
+
+          <div class="layer l3">
+            <span class="idx">03</span><span class="name">data</span>
+            <div class="chips">
+              <span class="chip"><i style="--b:#4169E1"></i>PostgreSQL</span>
+              <span class="chip"><i style="--b:#1EB4D4"></i>Hasura</span>
+              <span class="chip"><i style="--b:#4479A1"></i>MySQL</span>
+              <span class="chip"><i style="--b:#5aa6d6"></i>SQLite</span>
+              <span class="chip"><i style="--b:#e6edf3"></i>SQL</span>
+            </div>
+          </div>
+
+          <div class="layer l4">
+            <span class="idx">04</span><span class="name">cloud</span>
+            <div class="chips">
+              <span class="chip"><i style="--b:#FF9900"></i>AWS Lambda</span>
+              <span class="chip"><i style="--b:#FF4F8B"></i>API Gateway</span>
+              <span class="chip"><i style="--b:#FF9900"></i>AWS CDK</span>
+              <span class="chip"><i style="--b:#2496ED"></i>Docker</span>
+              <span class="chip"><i style="--b:#2088FF"></i>GitHub Actions</span>
+            </div>
+          </div>
+
+          <div class="layer l5">
+            <span class="idx">05</span><span class="name">intelligence</span>
+            <div class="chips">
+              <span class="chip"><i style="--b:#EE4C2C"></i>PyTorch</span>
+              <span class="chip"><i style="--b:#FF6F00"></i>TensorFlow</span>
+              <span class="chip"><i style="--b:#00FFFF"></i>YOLOv8</span>
+              <span class="chip"><i style="--b:#b48cff"></i>DINOv2</span>
+              <span class="chip"><i style="--b:#5C3EE8"></i>OpenCV</span>
+              <span class="chip"><i style="--b:#8a7fff"></i>Pandas</span>
+              <span class="chip"><i style="--b:#4dabcf"></i>NumPy</span>
+            </div>
+          </div>
+
+          <div class="layer l6" style="margin-bottom: 0;">
+            <span class="idx">06</span><span class="name">toolbox</span>
+            <div class="chips">
+              <span class="chip"><i style="--b:#F05032"></i>Git</span>
+              <span class="chip"><i style="--b:#FF6C37"></i>Postman</span>
+              <span class="chip"><i style="--b:#F4AA41"></i>Bruno</span>
+              <span class="chip"><i style="--b:#6DB33F"></i>SoapUI</span>
+              <span class="chip"><i style="--b:#e6edf3"></i>Termius</span>
+              <span class="chip"><i style="--b:#F2C811"></i>Power BI</span>
+              <span class="chip"><i style="--b:#217346"></i>Excel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
