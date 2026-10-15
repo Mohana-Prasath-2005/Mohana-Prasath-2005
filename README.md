@@ -1,60 +1,20 @@
 <div align="center">
 
-<br/>
+![Mohana Prasath G — Software Engineer, Backend & Fintech](assets/whoami.svg)
 
-<picture>
-  <img alt="Mohana Prasath G — Software Engineer, Backend & Fintech" src="assets/whoami.svg" width="100%" />
-</picture>
+![Status](assets/signal-strip.svg)
 
-<br/>
+<a href="https://mohana-prasath-2005.github.io/portfolio/"><img src="assets/connect/portfolio.svg" height="42" alt="Portfolio" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/mohana-prasath-g-279139267"><img src="assets/connect/linkedin.svg" height="42" alt="LinkedIn" /></a>&nbsp;
+<a href="https://leetcode.com/u/MOHAN-2005/"><img src="assets/connect/leetcode.svg" height="42" alt="LeetCode" /></a>&nbsp;
+<a href="mailto:mohanaprasath8917@gmail.com"><img src="assets/connect/email.svg" height="42" alt="Email" /></a>
 
-<!-- ─── STATUS BAR ─── -->
+![Featured Projects](assets/showcase.svg)
 
-<picture>
-  <img alt="Status" src="assets/signal-strip.svg" width="100%" />
-</picture>
+![Education](assets/edu-honours.svg)
 
-<br/><br/>
+![Tech Stack](assets/stack-card.svg)
 
-<!-- ─── CONNECT ─── -->
-
-<a href="https://mohana-prasath-2005.github.io/portfolio/"><img src="assets/connect/portfolio.svg" height="48" alt="Portfolio" /></a>&nbsp;
-<a href="https://www.linkedin.com/in/mohana-prasath-g-279139267"><img src="assets/connect/linkedin.svg" height="48" alt="LinkedIn" /></a>&nbsp;
-<a href="https://leetcode.com/u/MOHAN-2005/"><img src="assets/connect/leetcode.svg" height="48" alt="LeetCode" /></a>&nbsp;
-<a href="mailto:mohanaprasath8917@gmail.com"><img src="assets/connect/email.svg" height="48" alt="Email" /></a>
-
-<br/><br/>
-
-<!-- ─── PROJECTS ─── -->
-
-<picture>
-  <img alt="Featured Projects" src="assets/showcase.svg" width="100%" />
-</picture>
-
-<br/><br/>
-
-<!-- ─── EDUCATION ─── -->
-
-<picture>
-  <img alt="Education" src="assets/edu-honours.svg" width="100%" />
-</picture>
-
-<br/><br/>
-
-<!-- ─── TECH ICONS ─── -->
-
-<picture>
-  <img alt="Tech Stack" src="assets/stack-card.svg" width="100%" />
-</picture>
-
-<br/><br/>
-
-<!-- ─── ACTIVITY ─── -->
-
-<picture>
-  <img alt="GitHub Activity" src="assets/activity-card.svg" width="100%" />
-</picture>
-
-<br/><br/>
+![GitHub Activity](assets/activity-card.svg)
 
 </div>
