@@ -29,7 +29,7 @@
 <!-- ─── PROJECTS ─── -->
 
 <picture>
-  <img alt="Featured Projects" src="assets/featured.svg" width="100%" />
+  <img alt="Featured Projects" src="assets/projects-grid.svg" width="100%" />
 </picture>
 
 <br/><br/>
@@ -37,7 +37,7 @@
 <!-- ─── TECH ICONS ─── -->
 
 <picture>
-  <img alt="Tech Stack" src="assets/stack.svg" width="100%" />
+  <img alt="Tech Stack" src="assets/tech-stack.svg" width="100%" />
 </picture>
 
 <br/><br/>

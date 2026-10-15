@@ -157,7 +157,6 @@
             <div class="chips">
               <span class="chip"><i style="--b:#339933"></i>Node.js</span>
               <span class="chip"><i style="--b:#e6edf3"></i>Express</span>
-              <span class="chip"><i style="--b:#00ADD8"></i>Go</span>
               <span class="chip"><i style="--b:#3776AB"></i>Python</span>
               <span class="chip"><i style="--b:#c9d1d9"></i>Flask</span>
               <span class="chip"><i style="--b:#E10098"></i>GraphQL</span>
@@ -171,8 +170,6 @@
               <span class="chip"><i style="--b:#4169E1"></i>PostgreSQL</span>
               <span class="chip"><i style="--b:#1EB4D4"></i>Hasura</span>
               <span class="chip"><i style="--b:#4479A1"></i>MySQL</span>
-              <span class="chip"><i style="--b:#5aa6d6"></i>SQLite</span>
-              <span class="chip"><i style="--b:#e6edf3"></i>SQL</span>
             </div>
           </div>
 
@@ -181,7 +178,6 @@
             <div class="chips">
               <span class="chip"><i style="--b:#FF9900"></i>AWS Lambda</span>
               <span class="chip"><i style="--b:#FF4F8B"></i>API Gateway</span>
-              <span class="chip"><i style="--b:#FF9900"></i>AWS CDK</span>
               <span class="chip"><i style="--b:#2496ED"></i>Docker</span>
               <span class="chip"><i style="--b:#2088FF"></i>GitHub Actions</span>
             </div>
@@ -191,9 +187,7 @@
             <span class="idx">05</span><span class="name">intelligence</span>
             <div class="chips">
               <span class="chip"><i style="--b:#EE4C2C"></i>PyTorch</span>
-              <span class="chip"><i style="--b:#FF6F00"></i>TensorFlow</span>
               <span class="chip"><i style="--b:#00FFFF"></i>YOLOv8</span>
-              <span class="chip"><i style="--b:#b48cff"></i>DINOv2</span>
               <span class="chip"><i style="--b:#5C3EE8"></i>OpenCV</span>
               <span class="chip"><i style="--b:#8a7fff"></i>Pandas</span>
               <span class="chip"><i style="--b:#4dabcf"></i>NumPy</span>

@@ -60,7 +60,7 @@
             <div class="tags"><span class="tag">PyTorch</span><span class="tag">DINOv2</span><span class="tag">Transformers</span><span class="tag">React</span></div>
           </div>
           <div class="card c2">
-            <div class="title">Transaction Reconciliation System</div>
+            <div class="title">Reconciliation System</div>
             <div class="kind k2">fintech · full stack</div>
             <div class="desc">End-to-end platform that <span class="hl">matches settlements against transactions</span>, flags mismatches, and surfaces them on real-time dashboards.</div>
             <div class="tags"><span class="tag">Flask</span><span class="tag">SQLite</span><span class="tag">React</span><span class="tag">Vite</span></div>
